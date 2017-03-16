@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Programming for Everybody (Python) notes | Pitt Street Press</title>
+	<!-- <meta name="description" content="I recently did most of Dr Chuck’s Python course on Coursera, and documented most of what I’d learnt. Here are my notes, and few comments on the experience."> -->
+	<meta name="description" content="Notes from the University of Michingan Python course">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://localhost:4000/2015/01/14/programming-for-everyone-notes.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Pitt Street Press" href="http://localhost:4000/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-21977045-3', 'auto');
+	ga('send', 'pageview');
+	</script>
+	
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Pitt Street Press</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			<li>
+				<a class="page-link" href="/contact/">
+					Contact
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+<li>
+	<a href="http://localhost:4000/feed.xml" title="RSS feed">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/richyvk" title="Follow on GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/richyvk/" title="Follow on LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/richyvk" title="Follow on Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Programming for Everybody (Python) notes</h1>
+    <p class="meta">
+    January 14, 2015
+    
+    </p>
+  </header>
+  <section class="post-content"><p>I recently did most of <a href="https://www.coursera.org/course/pythonlearn">Dr Chuck’s Python course</a> on Coursera, and documented most of what I’d learnt. Here are my notes, and few comments on the experience.</p>
+
+<p>I’d recommend it for an introduction. It’s focused on text processing, but includes all the conceptual elements I expected. Coupled with Swaroop’s course: <a href="http://www.swaroopch.com/notes/python/">A bite of Python</a> and <a href="http://learnpythonthehardway.org/">Learn Python the Hard Way</a>, it represents pretty much the entirity of my Python courses to date.</p>
+
+<h2 id="week-1-introduction---why-we-program">Week 1: introduction - why we program</h2>
+
+<p>I can’t say I really learnt anything in the first week, but it was definitely fun. Dr Chuck is a charismatic and enthusiastic teacher and his lectures, that are kind of like fireside chats, certainly got me interested in the course.</p>
+
+<h2 id="week-2-variables-and-expressions">Week 2: variables and expressions</h2>
+
+<p>Still pretty basic, but I definitely learned some stuff this week.</p>
+
+<h3 id="expression-evaluation-order">Expression evaluation order</h3>
+
+<p>When Python evaluates expressions the following hierarchy of operators is used: Parentheses; Powers; Division, multiplication, remainder; Addition, subtraction; Left to right.</p>
+
+<p>An example:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># The expresion to be evaluated</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="o">+</span><span class="mi">2</span> <span class="o">*</span> <span class="mi">6</span><span class="o">**</span><span class="mi">2</span> <span class="o">/</span> <span class="mi">10</span>
+
+<span class="c"># No parentheses, so first would be powers - 6**2 = 36</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="o">+</span><span class="mi">2</span> <span class="o">*</span> <span class="mi">36</span> <span class="o">/</span> <span class="mi">10</span>
+
+<span class="c"># Next is Division, multiplication, and remainder</span>
+<span class="c"># We have multiplication and division so left to right</span>
+<span class="c"># kicks in - 2 * 36 = 72</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">72</span> <span class="o">/</span><span class="mi">10</span>
+
+<span class="c"># Now division - 72/10 = 7 #working in integers of course</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">7</span>
+
+<span class="c"># Lastly simple addition, and the final result</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">8</span></code></pre></figure>
+
+<h3 id="floats-in-expressions">Floats in expressions</h3>
+
+<p>When evaluating an expression that contains a float the evaluation is done with integers until the float is evaluated, then after that the rest of the expression is evaluated as if all numbers were floats</p>
+
+<h3 id="an-improvement-on-the-elevator-program">An improvement on the elevator program</h3>
+
+<p>My version of Dr Chuck’s Euro &gt; US elevator floor converter. Mine accepts 0 and negative floors</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">eurofloor</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">raw_input</span><span class="p">(</span><span class="s">"Enter European floor number: "</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="n">eurofloor</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">):</span>
+    <span class="k">print</span> <span class="s">"US floor equivalent is: Basement"</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"US floor equivalent is:"</span><span class="p">,</span> <span class="n">floor</span></code></pre></figure>
+
+<h2 id="week-3-conditional-code">Week 3: conditional code</h2>
+
+<h3 id="indenting-and-blocks">Indenting and blocks</h3>
+
+<p>Don’t mix tabs and spaces when you indent your code, infact, don’t use tabs at all, indent your code blocks by 4 spaces. To set this is Sublime Text, go to Preferences &gt; Settings - User, and add:</p>
+
+<figure class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span><span class="w">
+  </span><span class="nt">"tab_size"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w">
+  </span><span class="nt">"translate_tabs_to_spaces"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<h3 id="the-if-statement">The if statement</h3>
+
+<p>You can do single line if statements like this:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="k">if</span> <span class="n">x</span> <span class="o">==</span> <span class="mi">5</span><span class="p">:</span> <span class="k">print</span> <span class="n">x</span></code></pre></figure>
+
+<p>You don’t need to have an else in a conditional, you can just have if and elif(s):</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">x</span> <span class="o">=</span> <span class="mi">5</span>
+
+<span class="k">if</span> <span class="n">x</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"Large"</span>
+<span class="k">elif</span> <span class="n">x</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="k">print</span> <span class="s">"Small"</span>
+
+<span class="k">print</span> <span class="s">"All done"</span></code></pre></figure>
+
+<p>I was curious about why Dr Chuck didn’t use parentheses when writing out if conditionals, turns out for conditional statements they do the same thing as for evaluating any simple expression, i.e. to force hierachy of evaluation! So, they are really not necessary for simple conditions like x &lt; 5.</p>
+
+<p>I think I will still use them though, for consistency if nothing else.</p>
+
+<h3 id="tryexcept">try/except</h3>
+
+<p>Try/except is used to deal with errors, by default it will only deal with run time errors, e.g. non-existent variables. An if statement will never raise an exception on it’s own. You have to use ‘raise’ to get that to happen.</p>
+
+<p>It may be possible to use ‘assert’, but that has its own issues apparently.</p>
+
+<h2 id="week-4-functions">Week 4: functions</h2>
+
+<p>I’m sad to say I didn’t really learn anything new about functions from Dr Chuck. To be fair, he did say functions wouldn’t really feature in the course. I would suggest looking elsewhere for function related tutorials.</p>
+
+<p>Format for a function:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">function_name</span><span class="p">(</span><span class="n">argument1</span><span class="p">,</span> <span class="n">argument2</span><span class="p">):</span>
+    <span class="c"># indent code inside function by 4 spaces</span>
+    <span class="k">print</span> <span class="n">argument1</span><span class="p">,</span> <span class="n">argument</span> <span class="mi">2</span></code></pre></figure>
+
+<h2 id="week-5-loops-and-iteration">Week 5: loops and iteration</h2>
+
+<p>A loop that never runs is known as a zero trip loop, for example:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">x</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="c"># loop will never run because x is set to zero, and condition is x &gt; 0</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+    <span class="k">print</span> <span class="n">x</span>
+    <span class="n">x</span> <span class="o">-=</span> <span class="mi">1</span></code></pre></figure>
+
+<p>Use continue in a loop to return to the start of the loop, for example:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">()</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">data</span> <span class="o">==</span> <span class="s">"skip"</span><span class="p">):</span>
+        <span class="k">print</span> <span class="s">"returning to top of loop"</span>
+        <span class="k">continue</span> <span class="c">#data will not get printed, focus is returned to data = raw_input()</span>
+    <span class="k">print</span> <span class="n">data</span></code></pre></figure>
+
+<p>While type loops are known as indefinite loops, they will contune to run until some condition becomes false, the opposite are definite loops, i.e. iteration</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># for loop (iteration) example</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+
+<span class="c">#prints numbers 1 to 5</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">i</span></code></pre></figure>
+
+<p>Loop idioms was a phrase I’d not come across before, Dr Chuck gave examples including counting, adding and averaging loops. More on idioms on wikipedia.</p>
+
+<h2 id="week-6-strings">Week 6: Strings</h2>
+
+<p>Best thing I learnt this week is the dir function. Use it to discover built in methods for an object, e.g. a variable that points to a string object:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c">#super useful!</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">string</span> <span class="o">=</span> <span class="s">"Hello World!"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">dir</span><span class="p">(</span><span class="n">string</span><span class="p">)</span>
+<span class="p">[</span><span class="s">'capitalize'</span><span class="p">,</span> <span class="s">'center'</span><span class="p">,</span> <span class="s">'count'</span><span class="p">,</span> <span class="s">'decode'</span><span class="p">,</span> <span class="s">'encode'</span><span class="o">...</span></code></pre></figure>
+
+<p>Access a character from a string using indexing:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">string</span> <span class="o">=</span> <span class="s">"Hello World!"</span>
+<span class="k">print</span> <span class="n">string</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="c">#prints e (2nd character, as indexing is form character 0)</span></code></pre></figure>
+
+<p>Get length of string:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">string</span> <span class="o">=</span> <span class="s">"Hello World!"</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">string</span><span class="p">)</span> <span class="c">#prints 12 (number of characters in string)</span></code></pre></figure>
+
+<p>Looping through strings:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c">#Indefinite loop</span>
+<span class="n">string</span> <span class="o">=</span> <span class="s">"Hello World!"</span>
+<span class="n">index</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">while</span> <span class="n">index</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">string</span><span class="p">):</span>
+    <span class="n">letter</span> <span class="o">=</span> <span class="n">string</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+    <span class="k">print</span> <span class="n">letter</span>
+    <span class="n">index</span> <span class="o">+=</span> <span class="mi">1</span>
+
+<span class="c">#definite loop</span>
+<span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">string</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">letter</span></code></pre></figure>
+
+<p>Slicing strings:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">string</span> <span class="o">=</span> <span class="s">"Hello World!"</span>
+<span class="k">print</span> <span class="n">string</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span> <span class="c">#prints first 5 characters (upto but not including index position 5)</span>
+<span class="k">print</span> <span class="n">string</span><span class="p">[</span><span class="mi">6</span><span class="p">:]</span> <span class="c">#prints from 6th character to end of string</span>
+<span class="k">print</span> <span class="n">string</span><span class="p">[:]</span> <span class="c">#prints all characters</span></code></pre></figure>
+
+<p>‘in’ as an operator:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">string</span> <span class="o">=</span> <span class="s">"Hello World!"</span>
+<span class="s">'H'</span> <span class="ow">in</span> <span class="n">string</span> <span class="c">#True</span>
+<span class="s">'h'</span> <span class="ow">in</span> <span class="n">string</span> <span class="c">#False</span></code></pre></figure>
+
+<p>A simple string parsing exercise:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c">#find the host an in email given from_line</span>
+<span class="n">from_line</span> <span class="o">=</span> <span class="s">"From John Smith (john@email.com.au)  Date 1 December 2013 Subject: Hi!"</span>
+
+<span class="c"># index position of first @ symbol in from string</span>
+<span class="n">at_position</span> <span class="o">=</span> <span class="n">from</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">'@'</span><span class="p">)</span>
+
+<span class="c"># index position of first ) after @ symbol in from string</span>
+<span class="n">closing_paren</span> <span class="o">=</span> <span class="n">from</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s">')'</span><span class="p">,</span> <span class="n">at</span><span class="p">)</span> 
+
+<span class="c"># prints characters in from string between index positions for @ and ),</span>
+<span class="c"># i.e. the email host</span>
+<span class="k">print</span> <span class="n">from</span><span class="p">[</span><span class="n">at</span> <span class="o">+</span> <span class="mi">1</span><span class="p">:</span><span class="n">close_par</span><span class="p">]</span></code></pre></figure>
+
+<h2 id="week-7-you-have-arrived">Week 7: You Have Arrived</h2>
+
+<p>Didn’t make any notes this week.</p>
+
+<h2 id="week-8-lists">Week 8: Lists</h2>
+
+<p>Lists are mutable! Use the range function to create a list of integers:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span></code></pre></figure>
+
+<p>Not sure when you would need it really, but if you want to use the index of an item in a list when looping through it you can combine range() and len() to do that:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span><span class="s">'b'</span><span class="p">,</span><span class="s">'c'</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">)):</span>
+    <span class="k">print</span> <span class="n">i</span><span class="p">,</span> <span class="nb">list</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+<span class="n">although</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">above</span> <span class="n">example</span><span class="p">,</span> <span class="n">this</span> <span class="n">would</span> <span class="n">also</span> <span class="n">work</span><span class="p">:</span>
+
+<span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span><span class="s">'b'</span><span class="p">,</span><span class="s">'c'</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">:</span>
+    <span class="k">print</span> <span class="nb">list</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">i</span><span class="p">),</span> <span class="n">i</span></code></pre></figure>
+
+<p>Lists can be concatinated (+) and sliced ([n:n]) just like strings. Interesting that concatination builds a new list from the existing lists, I thought it might have created a new list of nested lists, but no!</p>
+
+<p>An aside, two logiccal operators to remember: in and not in:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="s">'a'</span><span class="p">,</span><span class="s">'b'</span><span class="p">,</span><span class="s">'c'</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">a</span> <span class="ow">in</span> <span class="nb">list</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">d</span> <span class="ow">in</span> <span class="nb">list</span>
+<span class="bp">False</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">b</span> <span class="ow">not</span> <span class="ow">in</span> <span class="nb">list</span>
+<span class="bp">False</span></code></pre></figure>
+
+<p>Interesting discussion on alternatives to loop idioms discussed in week 5:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c">#averaging loop - week 5 version</span>
+<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="n">inp</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Enter a number: "</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">inp</span> <span class="o">==</span> <span class="s">'done'</span><span class="p">:</span> <span class="k">break</span> <span class="c">#note single line version of if statement</span>
+    <span class="n">count</span> <span class="o">+=</span><span class="mi">1</span>
+    <span class="nb">sum</span> <span class="o">+=</span> <span class="n">inp</span>
+
+<span class="k">print</span> <span class="s">"Average: </span><span class="si">%</span><span class="s">d"</span> <span class="o">%</span> <span class="nb">sum</span> <span class="o">/</span> <span class="n">count</span>
+
+<span class="c">#the same thing can be done by adding inputs to a list then performing</span>
+<span class="c">#the calculation on the list using built-in functions(methods)</span>
+<span class="nb">list</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+    <span class="n">inp</span> <span class="o">=</span> <span class="nb">raw_input</span><span class="p">(</span><span class="s">"Enter a number: "</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">inp</span> <span class="o">==</span> <span class="s">'done'</span><span class="p">:</span> <span class="k">break</span>
+    <span class="nb">list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">inp</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="s">"Average: </span><span class="si">%</span><span class="s">d"</span> <span class="o">%</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span></code></pre></figure>
+
+<p>The idea of adding values to a list via a loop and then later doing other things with that list, i.e. with those values, is a powerful one!</p>
+
+<p>The split() method splits a string into a list:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">string</span> <span class="o">=</span> <span class="s">"The quick    brown fox"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">listy</span> <span class="o">=</span> <span class="n">string</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="c">#default split character is space (any number of spaces count as one)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">listy</span>
+<span class="p">[</span><span class="s">'The'</span><span class="p">,</span> <span class="s">'quick'</span><span class="p">,</span> <span class="s">'brown'</span><span class="p">,</span> <span class="s">'fox'</span><span class="p">]</span>
+<span class="ow">or</span> <span class="n">provide</span> <span class="n">an</span> <span class="n">argument</span> <span class="n">to</span> <span class="n">split</span> <span class="n">on</span> <span class="n">another</span> <span class="n">character</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">string</span> <span class="o">=</span> <span class="s">"Hello-World"</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">listy</span> <span class="o">=</span> <span class="n">string</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s">'-'</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">listy</span>
+<span class="p">[</span><span class="s">'Hello'</span><span class="p">,</span> <span class="s">'World'</span><span class="p">]</span></code></pre></figure>
+
+<p>Split() method can be really useful for extracting specific elements form large strings, e.g text files. Use the “double split” method, split on white space, then refine by taking important items form the list and spliting those with other chracters.</p>
+
+<h3 id="guardian-patterns">Guardian patterns</h3>
+
+<p>A technique form preventing errors in your programs, for example, if it appears specific data being reed might be causing problems. Basically debug to figure out what data is causing the issue and then write a statement to deal with that data before the bit of your program that crashes is reached.</p>
+
+<p>Typically this would be an “if x: continue” statement.</p>
+
+<h2 id="week-9-dictionaries">Week 9: Dictionaries</h2>
+
+<p>Didn’t make any notes this week.</p>
+
+<h2 id="week-10-tuples">Week 10: Tuples</h2>
+
+<p>Basically immutable lists. They are iterable like lists, but you can’t change them once created so you can’t sort, append etc. So why use them? Because they are more efficient than lists. Useful for assigning multiple variables in one statement:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+
+<span class="c">#We don't really need the parentheses on the left hand side, so:</span>
+<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span></code></pre></figure>
+
+<p>Useful for iterating over keys and values in dictionaries:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">myDict</span> <span class="o">=</span> <span class="p">{</span><span class="s">'a'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'b'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'c'</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+
+<span class="k">for</span> <span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span> <span class="ow">in</span> <span class="n">myDict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="k">print</span> <span class="s">'key is </span><span class="si">%</span><span class="s">s and value is </span><span class="si">%</span><span class="s">d'</span> <span class="o">%</span> <span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">v</span><span class="p">)</span></code></pre></figure>
+
+<p>Tuples are comparable:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">&lt;</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span> <span class="c">#Comparisons start from left, if first values are equal comparison moves to next values in each tuple</span>
+<span class="bp">True</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="p">(</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">)</span> <span class="o">&gt;</span> <span class="p">(</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'d'</span><span class="p">)</span>
+<span class="bp">False</span></code></pre></figure>
+
+<p>Because they are comparable they are sortable, so are useful for sorting dictionaries by key:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">myDict</span> <span class="o">=</span> <span class="p">{</span><span class="s">'a'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'b'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'c'</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span> <span class="o">=</span> <span class="n">myDict</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="c">#first convert dictionary to list of tuples</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">l</span>
+<span class="p">[(</span><span class="s">'a'</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="s">'c'</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="s">'b'</span><span class="p">,</span> <span class="mi">2</span><span class="p">)]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">l</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span> <span class="c"># then use sort() to sort by keys</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="n">l</span>
+<span class="p">[(</span><span class="s">'a'</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="s">'b'</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="p">(</span><span class="s">'c'</span><span class="p">,</span> <span class="mi">3</span><span class="p">)]</span></code></pre></figure>
+
+<p>You can combine all the above and use the <code class="highlighter-rouge">sorted()</code> method to output sorted keys and values:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">myDict</span> <span class="o">=</span> <span class="p">{</span><span class="s">'b'</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">'a'</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">'c'</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">myDict</span><span class="o">.</span><span class="n">items</span><span class="p">()):</span>
+<span class="o">...</span>     <span class="k">print</span> <span class="s">'key is </span><span class="si">%</span><span class="s">s and value is </span><span class="si">%</span><span class="s">d'</span> <span class="o">%</span> <span class="p">(</span><span class="n">k</span><span class="p">,</span><span class="n">v</span><span class="p">)</span>
+<span class="o">...</span> 
+<span class="n">key</span> <span class="ow">is</span> <span class="n">a</span> <span class="ow">and</span> <span class="n">value</span> <span class="ow">is</span> <span class="mi">1</span>
+<span class="n">key</span> <span class="ow">is</span> <span class="n">b</span> <span class="ow">and</span> <span class="n">value</span> <span class="ow">is</span> <span class="mi">2</span>
+<span class="n">key</span> <span class="ow">is</span> <span class="n">c</span> <span class="ow">and</span> <span class="n">value</span> <span class="ow">is</span> <span class="mi">3</span></code></pre></figure>
+
+<p>Dr Chuck talked a little bit about refactoring, suggesting once you understand the long form of writing many of these idioms, you can often refactor them into ‘more dense’ versions. An example of this being if oyu wanted to get the top 5 most common words in some text data:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># First read the data and record the word frequency</span>
+<span class="n">source</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">txt</span><span class="p">)</span>
+<span class="n">counts</span> <span class="o">=</span> <span class="p">{}</span> <span class="c">#dictionary to store word counts</span>
+
+<span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">source</span><span class="p">:</span>
+    <span class="n">words</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">words</span><span class="p">:</span>
+            <span class="n">counts</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="n">counts</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
+
+<span class="c">#Then do the sorting of the word count dictionary to get the top 5 words</span>
+<span class="n">lst</span> <span class="o">=</span> <span class="p">[]</span> 
+
+<span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">counts</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="p">(</span><span class="n">v</span><span class="p">,</span><span class="n">k</span><span class="p">)</span> <span class="p">)</span> <span class="c">#add value and key tuples form counts to lst</span>
+
+<span class="n">lst</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">v</span><span class="p">,</span><span class="n">k</span> <span class="ow">in</span> <span class="n">lst</span><span class="p">[:</span><span class="mi">5</span><span class="p">]:</span>
+    <span class="k">print</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span>
+
+<span class="c">#the sorting can be refactored as:</span>
+
+<span class="n">lst</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">([(</span><span class="n">v</span><span class="p">,</span><span class="n">k</span><span class="p">)</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">counts</span><span class="o">.</span><span class="n">items</span><span class="p">()],</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">v</span><span class="p">,</span><span class="n">k</span> <span class="ow">in</span> <span class="n">lst</span><span class="p">[:</span><span class="mi">5</span><span class="p">]:</span>
+    <span class="k">print</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span></code></pre></figure>
+
+</section>
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+    <a id="prev-post" href="/2014/11/30/sample-post.html">
+      <span class="page-title">Sample post</span>
+      <span class="nav-label">
+        <i class="fa fa-chevron-left"></i> Prev
+      </span>
+    </a>
+    
+    
+    <a id="next-post" href="/2015/02/14/readifying-austlii.html">
+       <span class="page-title">Readifying AustLii</span>
+       <span class="nav-label">
+        Next <i class="fa fa-chevron-right"></i>
+       </span>
+     </a>
+    
+</div>
+
+
+<!-- Disqus -->
+
+
+<!-- Muut -->
+
+    </div>
+    
+<script src="/js/katex_init.js"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="http://jekyllrb.com">Jekyll</a> with a customised version of <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,77 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://richyvk.github.io/" # the base hostname & protocol for your site
+timezone: Australia/Brisbane
+
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: R / V
+  avatar: avatar.png
+  gravatar: # Email MD5 hash
+  description: "A librarian from Brisbane blogging about coding, data and related stuff. Maybe even libraries." # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <p>My name is Richard Vankoningsveld. I'm a law librarian.</p>
+     <p>I write about learning to write code. My focus is web development and data analysis, mostly using Python.</p>
+  header_text_feature_image: img/clouds2.png
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> with a customised version of <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+
+  # Icons
+  rss: true
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "richyvk"
+  google_plus:
+  instagram:
+  linkedin: "https://www.linkedin.com/in/richyvk/" # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "richyvk"
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: UA-21977045-3 # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  muut_community_name: # From muut.com settings, e.g. "muttcommunityname"
+  katex: false # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: true
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+gems: [jekyll-paginate]
+destination: ../output/

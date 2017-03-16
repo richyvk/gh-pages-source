@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Readifying AustLii | Pitt Street Press</title>
+	<!-- <meta name="description" content="I love AustLii. Everyone I know that works in a law library loves AustLii (well, if not the actual site itself, then at least the idea of it). For some time ..."> -->
+	<meta name="description" content="An experiment to improve the typography and readability of the AustLii website">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://localhost:4000/2015/02/14/readifying-austlii.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Pitt Street Press" href="http://localhost:4000/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-21977045-3', 'auto');
+	ga('send', 'pageview');
+	</script>
+	
+</head>
+
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Pitt Street Press</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			<li>
+				<a class="page-link" href="/contact/">
+					Contact
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled -->
+			
+<li>
+	<a href="http://localhost:4000/feed.xml" title="RSS feed">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/richyvk" title="Follow on GitHub">
+		<i class="fa fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/richyvk/" title="Follow on LinkedIn">
+		<i class="fa fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://twitter.com/richyvk" title="Follow on Twitter">
+		<i class="fa fa-fw fa-twitter"></i>
+	</a>
+</li>
+
+
+
+
+
+
+		</ul>
+	</nav>
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Readifying AustLii</h1>
+    <p class="meta">
+    February 14, 2015
+    
+    </p>
+  </header>
+  <section class="post-content"><p>I love <a href="http://www.austlii.edu.au/">AustLii</a>. Everyone I know that works in a law library loves AustLii (well, if not the actual site itself, then at least the idea of it). For some time now though, I’ve found myself increasingly frustrated with it. Specifially, since I’ve actually had to start reading court decisions in some detail using it, I’ve concluded that AustLii’s current format does not provide for enjoyable, or efficient reading. In short, it sucks for reading!</p>
+
+<p>So, what to do? I mean, if a site’s primary funciton is to provide an interface for reading text documents (I’d argue that is AustLii’s primary function), then it should at the very least not make that task so tough going for users. But, better than that, I think it should be optimised for that function as much as possible.</p>
+
+<p>So, that was the task I set myself. Optimise AustLii for reading court decisions. I figured it wouldn’t be that hard to make it more readable, and therefore usable, with a some pretty basic css changes. Turns out it wasn’t.</p>
+
+<p>But before we get into the how, let’s ponder the why. Why is AustLii so unreadable? AustLii is, I think it’s fair to say, one of the least designed websites around. There is often no css, other than a sprinkling of inline styles, which means it is mostly at the mercy of browsers to provide its visual aesthetic.</p>
+
+<h2 id="way-back-when">Way back when</h2>
+
+<p>I think a lot of the problem comes from the fact that the AustLii site was built a long time ago in web terms. The Wayback Machine’s version of the AustLii homepage from 10 years ago is essentially the same as the current one. Things were quite different back then, as we shall see.</p>
+
+<p>The state of the web back in 2004 looked something like this:</p>
+
+<ul>
+  <li>91.35% of people used Internet Explorer (version 6 was the cutting edge), 3.66% Firefox, only 1.5% Safari and Chrome didn’t exist. source</li>
+  <li>91% of monitors were 1024 x 768 or lower. source</li>
+  <li>HTML was at version 4 and CCS was at version 2.</li>
+  <li>Oh, and of course there were no iPhones or iPads!</li>
+</ul>
+
+<p>So, let’s say I’m one of the 47% of people who had a 1024x768 monitor in 2004. Most people suggest working with a maximum of 960px viewport width for that resolution. How does a typical decision look on the AustLii site?</p>
+
+<!-- Add img -->
+<p><img src="/img/austlii-1024.png" alt="AustLii content at 960px" /></p>
+
+<p>Of most interest for this exercise is the line length, and it comes in at 140ish characters. With a 800x600 monitor that falls to about 110 characters. That’s still not exactly textbook, but it’s getting close.</p>
+
+<p>As mentioned earlier AustLii relys on the browser to determine other aspects of the readability, such as font family, size and weight; line height; and whitespace. If we assume the browsers back in 2004 had similar defaults for these attributes as they do today, then unfortunately AustLii was somewhat lacking even then. I’m pretty sure it wouldn’t have been alone though.</p>
+
+<h2 id="fast-forward">Fast forward</h2>
+
+<p>Fast forward ten years and AustLii really starts to have problems.</p>
+
+<p>In 2012 NNg moved its <a href="http://www.nngroup.com/articles/computer-screens-getting-bigger/">recommendation for viewport optimisation</a> to 1440px, and the W3Schools <a href="http://www.w3schools.com/browsers/browsers_display.asp">statistics</a> on screen resolutions in 2014 are esentially the polar opposite of 2004, with 93% of monitors having a higher resolution than 1024x768.</p>
+
+<p>At 1440px window width, the typical AustLii line length blows out to about 210 characters making reading a tough ask, particularly with those default font and line height settings.</p>
+
+<p>W3Schools <a href="http://www.w3schools.com/browsers/browsers_stats.asp">statistics</a> suggest browser usage is going the same way too. IE is at 10% and falling, Firefox is the 2nd choice at around 25%, but it’s Chrome that currently dominates with around 55%.</p>
+
+<h2 id="the-factors">The factors</h2>
+
+<p>First, let’s look at some accepted standards for readbility on the web starting with line length.</p>
+
+<p><a href="http://r9y.org/">r9y</a> seemed a good starting point. It <a href="http://r9y.org/line-length/">recommends</a> a range of 50-75 characters. The Elements of Typographic Style Applied to the Web <a href="http://webtypography.net/2.1.2">suggests</a> 45-75 and an optimum of 66, so pretty similar. The one descenting view I could find was <a href="http://viget.com/inspire/the-line-length-misconception">Viget</a> which arrives at 100 charcters as a new standard.</p>
+
+<p>Then there are the font properties. As mentioned AustLii lets the browser style fonts a lot of the time, which typically means we’ll get black 16px Times New Roman with standard line height on a white background.</p>
+
+<p>I’m sure there are plenty of typographic theories on these attributes, but I don’t have knowledge of them and I didn’t feel like spending a lot of time learning about them for this exercise.</p>
+
+<p>So instead, I chose to look at a few existing sites and see how they approached font styling. The sites were chosen because I like them and/or they seemed to me to be mostly about reading, and in my view they do readability pretty well. Here are the results for a 1440px wide viewport:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Site</th>
+      <th>Line length</th>
+      <th>Container width</th>
+      <th>Font family</th>
+      <th>Font size</th>
+      <th>Line height</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Medium</td>
+      <td>75 chars</td>
+      <td>700px</td>
+      <td>Freight Text Pro, Georgia, Cambria, Times New Roman, Times, Serif</td>
+      <td>22px</td>
+      <td>33px</td>
+    </tr>
+    <tr>
+      <td>New Yorker</td>
+      <td>80 chars</td>
+      <td>690px</td>
+      <td>Adobe Caslon Pro, Times, Georgia, Serif</td>
+      <td>20px</td>
+      <td>28px</td>
+    </tr>
+    <tr>
+      <td>Pocket</td>
+      <td>72 chars</td>
+      <td>640px</td>
+      <td>Chaparral Pro, Serif</td>
+      <td>21px</td>
+      <td>31.5px</td>
+    </tr>
+    <tr>
+      <td>Readbility</td>
+      <td>75 chars</td>
+      <td>788px</td>
+      <td>Sentinel SSm A, Sentinel SSm B, Palatino Linotype, Book Antiqua, Palatino, Serif</td>
+      <td>20.8px</td>
+      <td>36.4px</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="the-specs">The specs</h2>
+
+<p>For this project I decided to use CSS only. I didn’t want to complicate things by having to add anything to the existing HTML, either by hardcoding (impossible for me to do anyway) or with Javascript. That way it would a simple case of linking to (or as will be shown later injecting) a stylesheet to get things looking better.</p>
+
+<p>Taking into account the research above, the basic specification I arrived at was therefore:</p>
+
+<ul>
+  <li>Line width - 75 characters at 1440px window width - two of the four sites I looked at used 75 chars and it’s within the generally accepted range.</li>
+  <li>Serif font, Georgia if available - notice all the sites specify fancy fonts first, probably supplied as web fonts. I didn’t want to do that so I went with a serif font. Georgia is a favourite of mine, and it’s pretty ubiquitous.</li>
+  <li>21px font-size</li>
+  <li>31.5px line height</li>
+</ul>
+
+<p>I’m giving myself the option to add other styles like font and backgroung colour, but that’s the initial ideal.</p>
+
+<h2 id="the-implementation">The implementation</h2>
+
+<p>Optimising for Chrome at a viewport width of 1440px and using the specs above, implementing was actually pretty straight forward. The only real issue was Austlii’s odd mark-up.</p>
+
+<p><img src="/img/austlii-source-1.png" alt="AustLii's lack of divs" /></p>
+
+<p>As we can see they don’t really do divs which makes styling all that more difficult.</p>
+
+<p><img src="/img/austlii-source-2.png" alt="AustLii's weird use of ordered lists" /></p>
+
+<p>They also have a habit of using ordered lists for presenting the text of decisions which I’m pretty sure they do to provide paragraph numbering. Let’s not go into the semantic issues of this, and just take away the point that it’s quite hard to reliably target content on AustLii for styling purposes.</p>
+
+<p>That’s why I made the decision to put all my styling on the body tag. I would have rather targeted everything below the navigation section at least, but that just wasn’t going to happen.</p>
+
+<p>So, starting with font Chrome’s default for paragraphs (and ordered lists) is 16px. We’re going to use ems to give a relative size, to do this we can use the target / context = size formula.</p>
+
+<p><code class="highlighter-rouge">21 (target) / 16 (context) = 1.3125</code>, so our font size will be 1.3125em</p>
+
+<p>We can use the same formula for line height too. Our desired line height is 31.5px, and the context (font size) is 21px</p>
+
+<p><code class="highlighter-rouge">31.5 / 21 = 1.5</code>, so our line height will be 1.5</p>
+
+<p>Font family is straight forward giving final font css looking like this:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
+	<span class="nl">font-family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">,</span> <span class="nb">serif</span><span class="p">;</span>
+	<span class="nl">font-size</span><span class="p">:</span> <span class="m">1.3125em</span><span class="p">;</span>
+	<span class="nl">line-height</span><span class="p">:</span> <span class="m">1.5</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>Lastly, we need to sort out the line length which we can achieve by limiting the width of the body element of course.</p>
+
+<p>It’s a little more complicated than the font properties, but the target / context = size formula can help us again here too.</p>
+
+<p>First, we need to know the average number of characters that will fit on a line of a <a href="http://www.austlii.edu.au/au/cases/cth/HCA/2014/52.html">typical AustLii judgment</a> currently. To do this I set my Chrome window to 1440px wide and used dev tools (alt + cmd + i on Mac) to set the font properties of a paragraph to our new size and family. I chose a paragraph that was actually a list item in an ordered list as these are most common, and factors in the space lost to numbering.</p>
+
+<p>Counting the number of characters on each line in that paragraph and dividing that by the number of lines gave an average line length of 134 characters - that’s our context in characters. From that we can calculate our body width size:</p>
+
+<p>75 (target chars) / 134 (context) = 0.55970149253731. If we make the body 55.970149253731% of the viewport we should get 75 characters average line length.</p>
+
+<p>AustLii sets a margin of 20px on the body element inline, and to avoid messing with that we can pad the body the rest of the way to get to our desired width. The calculations go like this:</p>
+
+<ul>
+  <li>Existing left and right margins total 40px - that’s 0.02777777777778% of 1440px</li>
+  <li>100% (viewport width) - 0.02777777777778% (for existing margins) - 55.970149253731% (for our body width) = 44.00207296849122%</li>
+  <li>44.00207296849122% is therefore the amount of padding we need to apply to the body to get our optimal line length at 1440px</li>
+</ul>
+
+<p>Just remember that because we’re using % for our padding the lengths will vary depending on viewport size, but that’s what we want for a more <a href="http://en.wikipedia.org/wiki/Responsive_web_design">responsive</a> design.</p>
+
+<p>We could divide that 44.00207296849122% anyway we liked to apply left and right padding of course, but for simplicity I split it equally. That gives final css for the body element looking like this:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
+	<span class="nl">font-family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">,</span> <span class="nb">serif</span><span class="p">;</span>
+	<span class="nl">font-size</span><span class="p">:</span> <span class="m">1.3125em</span><span class="p">;</span>
+	<span class="nl">line-height</span><span class="p">:</span> <span class="m">1.5</span><span class="p">;</span>
+	<span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">22.00103648424561%</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<h2 id="the-result">The result</h2>
+
+<p>I would love if it AustLii considered doing something simple like this to improve the site’s readibility. That would be amazing! but I’m realistic about the chances. That’s why I looked around for alternative options and discovered that it’s actually pretty easy to inject css into a page using a browser extension. The one I use is <a href="https://chrome.google.com/webstore/detail/css-inject/fmiohbdblcemacakpnoinjmcelddpjbg?hl=en">CSS Inject</a> for Chrome, but I’m sure there are multiple other for Chrome, Firefox, and maybe even IE? I’ve also uploaded my <a href="http://pittstreetpress.com/Resources/readifying-austlii.css">final css</a> so anyone can use it in conjunction with CSS Inject to transform any AustLii decision, or use it as the basis for their own css customising for AustLii.</p>
+
+<p>The final product looks like this:</p>
+
+<p><img src="/img/austlii-readified.png" alt="the final product" /></p>
+
+<p>The final css is essentially what is discussed above, but I added a couple of rules to fix a line height issue with list items, and to make references look a bit nicer. Here it is:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">body</span> <span class="p">{</span>
+	<span class="nl">font-family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">,</span> <span class="nb">serif</span><span class="p">;</span>
+	<span class="nl">font-size</span><span class="p">:</span> <span class="m">1.3125em</span><span class="p">;</span>
+	<span class="nl">line-height</span><span class="p">:</span> <span class="m">1.5</span><span class="p">;</span>
+	<span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">22.00103648424561%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">li</span> <span class="p">{</span>
+	<span class="nl">padding-top</span><span class="p">:</span> <span class="m">3px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">a</span><span class="o">[</span><span class="nt">name</span><span class="o">^=</span><span class="s1">"fn"</span><span class="o">]</span> <span class="p">{</span>
+	<span class="nl">font-size</span><span class="p">:</span> <span class="m">.75em</span><span class="p">;</span>
+	<span class="nl">font-weight</span><span class="p">:</span> <span class="nb">normal</span><span class="p">;</span>
+	<span class="nl">vertical-align</span><span class="p">:</span> <span class="nb">super</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>I think this styling is a vast improvement on the default, and I do find decisions a lot easier to read using it. The desired line length has been acheived, and the font properties are vastly better. If anything, I am considering dropping the font size a little, as it does seem slightly larger than necessary. I will use it for a while and see how it goes. If anyone has any ideas for improvements I’d love to hear them too.</p>
+</section>
+</article>
+
+<!-- Post navigation -->
+
+<div id="post-nav">
+    
+    <a id="prev-post" href="/2015/01/14/programming-for-everyone-notes.html">
+      <span class="page-title">Programming for Everybody (Python) notes</span>
+      <span class="nav-label">
+        <i class="fa fa-chevron-left"></i> Prev
+      </span>
+    </a>
+    
+    
+    <a id="next-post" href="/2015/08/28/on-learning-to-code.html">
+       <span class="page-title">On learning to code (it's a bloody long road)</span>
+       <span class="nav-label">
+        Next <i class="fa fa-chevron-right"></i>
+       </span>
+     </a>
+    
+</div>
+
+
+<!-- Disqus -->
+
+
+<!-- Muut -->
+
+    </div>
+    
+<script src="/js/katex_init.js"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="http://jekyllrb.com">Jekyll</a> with a customised version of <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>

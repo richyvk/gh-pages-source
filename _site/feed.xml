@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://localhost:4000/</link>
+    <description></description>
+    <pubDate>Fri, 03 Mar 2017 20:26:28 +1000</pubDate>
+    
+      <item>
+        <title>On learning to code (it's a bloody long road)</title>
+        <link>http://localhost:4000/2015/08/28/on-learning-to-code.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/08/28/on-learning-to-code.html</guid>
+        <description>&lt;p&gt;I’ve been attempting to learn to code for a few years now on and off. To a degree this is for work reasons (I’m a librarian, with systems librarian tendancies, and some opportunities to write code as part of my job). It’s also because I aspire to write code full time for a living.&lt;/p&gt;
+
+&lt;p&gt;I’m aware that second reason is somewhat unrealistic. I’m 42 years old, have two kids and a mortgage, and all the other things going on in a life that mean I need to earn money. Ideally I need to keep earning the same amount of money I do now. Either that, or make some major lifestyle changes, that frankly, I’m not that keen on thinking about.&lt;/p&gt;
+
+&lt;p&gt;That said, I still want to improve as a code writer, not least because I think it’s a useful skill. I also love doing it, and I want to pass on that enthusiasm to my kids as they get to an age when they are starting to be able to code themselves. I suppose in essence, I’m a hobbyist.&lt;/p&gt;
+
+&lt;p&gt;The intention behind this, my first Medium post, is to begin documenting things I’ve learned to date, primarily for my reference. Yes, I could do this offline. The reasons I’ve chosen a public platform must therefore be:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Other people might find this useful&lt;/li&gt;
+  &lt;li&gt;It might be good self-promotion&lt;/li&gt;
+  &lt;li&gt;I am learning, always learning, so maybe others might help if I get stuff wrong&lt;/li&gt;
+  &lt;li&gt;I might just like the idea of self-publishing (I do)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I have blogged before (Medium is basically a blog platform, right?), I may blog again, but for now Medium is it. Mainly because I think it’s a really awesome platform.&lt;/p&gt;
+
+&lt;p&gt;So, for my first post here’s a guide based in my journey so far, for anyone thinking about learning to code themselves (are you hearing me librarians? I hear all this talk about how we could be the grease to the internet’s wheel, and how we need to learn these skills in order to remain relevant, well let’s see it!).&lt;/p&gt;
+
+&lt;h2 id=&quot;the-basics&quot;&gt;The basics&lt;/h2&gt;
+
+&lt;p&gt;Learn HTML (the content layer): it’s the easiest thing to learn, and if you don’t know how to write good HTML you’re not going to get very far.
+Borrow a book or two, and try some of the million resources out there for learning HTML on the web. I’ve done CodeAcademy and Udacity courses, both are excellent, and free!&lt;/p&gt;
+
+&lt;p&gt;Learn CSS (the presentation layer): once you’ve got a good handle on how to mark up your content, you’ll want to learn how to add style. That’s where CSS comes in. Again books and online courses are, it seems to me, all you need. CodeAcademy and Udacity are also your best friends for this.&lt;/p&gt;
+
+&lt;p&gt;Learn to use the command line: I have found I am a lot more productive now I have even a small skill set for using the terminal on my Mac. There are also lots of things coding related things you can do using the command line that you just can’t do through your computers GUI. I’m not even going to pretend I know about using the Windows command line (see point 4).&lt;/p&gt;
+
+&lt;p&gt;CodeAcademy has a new course that I’m working through currently, it’s great so far. Can I also recommend The Command Line Crash Course.&lt;/p&gt;
+
+&lt;p&gt;Get a Mac or install Linux: It seems to me that the people who build the web don’t use Windows. So, you’re going to have a much harder time learning to code if you’re going to do it on a Windows machine. I’m not saying it’s impossible but I reckon it’s way harder, particularly when you start to go beyond writing HTML and get into installing and running programming languages.&lt;/p&gt;
+
+&lt;p&gt;If money is an issue a Raspberry pi 2 that will run Linux just fine will cost you $59.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-next-steps&quot;&gt;The next steps&lt;/h2&gt;
+
+&lt;p&gt;Learn the concepts of programming: I started with Ruby, via Learn to Program, but it didn’t grab me. Then I discovered Python, which totally blew my mind. Try this or this book, and maybe this or this course. They are all great. If you do some/all bits of some/all of those, you’ll be getting a pretty good feel for what you can do with a computer over and above your HTML/CSS skills.&lt;/p&gt;
+
+&lt;p&gt;Learn about Git: version control is important if you’re serious about managing your code, and growing as a code writer. Everyone seems to use Git for version control, so seems to me it’s the thing to learn. Additionally, GitHub is a fine place to showcase your code if you’re interested in getting noticed as a coder, or you want to collaborate , or you just want a permanent archive for you code. Once again, I’m going to recommend the Udacity course. Also, Version Control with Git is a good, concise little book on using git.&lt;/p&gt;
+
+&lt;p&gt;Learn JavaScript (the behaviour layer): I learnt some JS, mixed in with early HTML/CSS explorations, before I understood anything about programming as a discipline. That got me exactly nowhere! I find JS harder to write than Python, it’s somewhat further away from English than Python is to my mind. That’s why I’ve labelled it a next step and not a basic. I’m currently reading Eloquent JavaScript and the first of the You Don’t Know JS series, and I’m finding it’s a lot easier going now that I have some background programming knowledge.&lt;/p&gt;
+
+&lt;p&gt;Investigate some CSS frameworks: Bootstrap would be a good starting point, being easy to use but with lots of features. Semantic UI also looks pretty awesome, although having only discovered it today and it looks a little more complex than Bootstrap so maybe not ideal as a first framework to investigate if you’re easily daunted like me?&lt;/p&gt;
+
+&lt;p&gt;Investigate jQuery: I think a lot of people say jQuery is easier to learn than straight JS, which may well be true. Myself, I’d say again though that spending some time on skilling up on the basics of programming will help with learning jQuery. Again CodeAcademy and Udacity both have jQuery courses.&lt;/p&gt;
+
+&lt;p&gt;And that’s pretty much where I’ve reached down my coding road to this point, so that’s where I’ll end this for now. Next I’ll probably write something about how I set up my Mac for learning to code, then maybe something about web application frameworks, which I’ve dabbled in but am not comfortable saying I can use effectively at this point. Oh, and I’ll most certainly be writing about FreeCodeCamp, that I’ve recently got involved in and have fallen for in a fairly big way!&lt;/p&gt;
+
+&lt;p&gt;Until next time…&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Aug 2015 00:00:00 +1000</pubDate>
+      </item>
+    
+      <item>
+        <title>Readifying AustLii</title>
+        <link>http://localhost:4000/2015/02/14/readifying-austlii.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/14/readifying-austlii.html</guid>
+        <description>&lt;p&gt;I love &lt;a href=&quot;http://www.austlii.edu.au/&quot;&gt;AustLii&lt;/a&gt;. Everyone I know that works in a law library loves AustLii (well, if not the actual site itself, then at least the idea of it). For some time now though, I’ve found myself increasingly frustrated with it. Specifially, since I’ve actually had to start reading court decisions in some detail using it, I’ve concluded that AustLii’s current format does not provide for enjoyable, or efficient reading. In short, it sucks for reading!&lt;/p&gt;
+
+&lt;p&gt;So, what to do? I mean, if a site’s primary funciton is to provide an interface for reading text documents (I’d argue that is AustLii’s primary function), then it should at the very least not make that task so tough going for users. But, better than that, I think it should be optimised for that function as much as possible.&lt;/p&gt;
+
+&lt;p&gt;So, that was the task I set myself. Optimise AustLii for reading court decisions. I figured it wouldn’t be that hard to make it more readable, and therefore usable, with a some pretty basic css changes. Turns out it wasn’t.&lt;/p&gt;
+
+&lt;p&gt;But before we get into the how, let’s ponder the why. Why is AustLii so unreadable? AustLii is, I think it’s fair to say, one of the least designed websites around. There is often no css, other than a sprinkling of inline styles, which means it is mostly at the mercy of browsers to provide its visual aesthetic.&lt;/p&gt;
+
+&lt;h2 id=&quot;way-back-when&quot;&gt;Way back when&lt;/h2&gt;
+
+&lt;p&gt;I think a lot of the problem comes from the fact that the AustLii site was built a long time ago in web terms. The Wayback Machine’s version of the AustLii homepage from 10 years ago is essentially the same as the current one. Things were quite different back then, as we shall see.&lt;/p&gt;
+
+&lt;p&gt;The state of the web back in 2004 looked something like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;91.35% of people used Internet Explorer (version 6 was the cutting edge), 3.66% Firefox, only 1.5% Safari and Chrome didn’t exist. source&lt;/li&gt;
+  &lt;li&gt;91% of monitors were 1024 x 768 or lower. source&lt;/li&gt;
+  &lt;li&gt;HTML was at version 4 and CCS was at version 2.&lt;/li&gt;
+  &lt;li&gt;Oh, and of course there were no iPhones or iPads!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, let’s say I’m one of the 47% of people who had a 1024x768 monitor in 2004. Most people suggest working with a maximum of 960px viewport width for that resolution. How does a typical decision look on the AustLii site?&lt;/p&gt;
+
+&lt;!-- Add img --&gt;
+&lt;p&gt;&lt;img src=&quot;/img/austlii-1024.png&quot; alt=&quot;AustLii content at 960px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Of most interest for this exercise is the line length, and it comes in at 140ish characters. With a 800x600 monitor that falls to about 110 characters. That’s still not exactly textbook, but it’s getting close.&lt;/p&gt;
+
+&lt;p&gt;As mentioned earlier AustLii relys on the browser to determine other aspects of the readability, such as font family, size and weight; line height; and whitespace. If we assume the browsers back in 2004 had similar defaults for these attributes as they do today, then unfortunately AustLii was somewhat lacking even then. I’m pretty sure it wouldn’t have been alone though.&lt;/p&gt;
+
+&lt;h2 id=&quot;fast-forward&quot;&gt;Fast forward&lt;/h2&gt;
+
+&lt;p&gt;Fast forward ten years and AustLii really starts to have problems.&lt;/p&gt;
+
+&lt;p&gt;In 2012 NNg moved its &lt;a href=&quot;http://www.nngroup.com/articles/computer-screens-getting-bigger/&quot;&gt;recommendation for viewport optimisation&lt;/a&gt; to 1440px, and the W3Schools &lt;a href=&quot;http://www.w3schools.com/browsers/browsers_display.asp&quot;&gt;statistics&lt;/a&gt; on screen resolutions in 2014 are esentially the polar opposite of 2004, with 93% of monitors having a higher resolution than 1024x768.&lt;/p&gt;
+
+&lt;p&gt;At 1440px window width, the typical AustLii line length blows out to about 210 characters making reading a tough ask, particularly with those default font and line height settings.&lt;/p&gt;
+
+&lt;p&gt;W3Schools &lt;a href=&quot;http://www.w3schools.com/browsers/browsers_stats.asp&quot;&gt;statistics&lt;/a&gt; suggest browser usage is going the same way too. IE is at 10% and falling, Firefox is the 2nd choice at around 25%, but it’s Chrome that currently dominates with around 55%.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-factors&quot;&gt;The factors&lt;/h2&gt;
+
+&lt;p&gt;First, let’s look at some accepted standards for readbility on the web starting with line length.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://r9y.org/&quot;&gt;r9y&lt;/a&gt; seemed a good starting point. It &lt;a href=&quot;http://r9y.org/line-length/&quot;&gt;recommends&lt;/a&gt; a range of 50-75 characters. The Elements of Typographic Style Applied to the Web &lt;a href=&quot;http://webtypography.net/2.1.2&quot;&gt;suggests&lt;/a&gt; 45-75 and an optimum of 66, so pretty similar. The one descenting view I could find was &lt;a href=&quot;http://viget.com/inspire/the-line-length-misconception&quot;&gt;Viget&lt;/a&gt; which arrives at 100 charcters as a new standard.&lt;/p&gt;
+
+&lt;p&gt;Then there are the font properties. As mentioned AustLii lets the browser style fonts a lot of the time, which typically means we’ll get black 16px Times New Roman with standard line height on a white background.&lt;/p&gt;
+
+&lt;p&gt;I’m sure there are plenty of typographic theories on these attributes, but I don’t have knowledge of them and I didn’t feel like spending a lot of time learning about them for this exercise.&lt;/p&gt;
+
+&lt;p&gt;So instead, I chose to look at a few existing sites and see how they approached font styling. The sites were chosen because I like them and/or they seemed to me to be mostly about reading, and in my view they do readability pretty well. Here are the results for a 1440px wide viewport:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Site&lt;/th&gt;
+      &lt;th&gt;Line length&lt;/th&gt;
+      &lt;th&gt;Container width&lt;/th&gt;
+      &lt;th&gt;Font family&lt;/th&gt;
+      &lt;th&gt;Font size&lt;/th&gt;
+      &lt;th&gt;Line height&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Medium&lt;/td&gt;
+      &lt;td&gt;75 chars&lt;/td&gt;
+      &lt;td&gt;700px&lt;/td&gt;
+      &lt;td&gt;Freight Text Pro, Georgia, Cambria, Times New Roman, Times, Serif&lt;/td&gt;
+      &lt;td&gt;22px&lt;/td&gt;
+      &lt;td&gt;33px&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;New Yorker&lt;/td&gt;
+      &lt;td&gt;80 chars&lt;/td&gt;
+      &lt;td&gt;690px&lt;/td&gt;
+      &lt;td&gt;Adobe Caslon Pro, Times, Georgia, Serif&lt;/td&gt;
+      &lt;td&gt;20px&lt;/td&gt;
+      &lt;td&gt;28px&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pocket&lt;/td&gt;
+      &lt;td&gt;72 chars&lt;/td&gt;
+      &lt;td&gt;640px&lt;/td&gt;
+      &lt;td&gt;Chaparral Pro, Serif&lt;/td&gt;
+      &lt;td&gt;21px&lt;/td&gt;
+      &lt;td&gt;31.5px&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Readbility&lt;/td&gt;
+      &lt;td&gt;75 chars&lt;/td&gt;
+      &lt;td&gt;788px&lt;/td&gt;
+      &lt;td&gt;Sentinel SSm A, Sentinel SSm B, Palatino Linotype, Book Antiqua, Palatino, Serif&lt;/td&gt;
+      &lt;td&gt;20.8px&lt;/td&gt;
+      &lt;td&gt;36.4px&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;the-specs&quot;&gt;The specs&lt;/h2&gt;
+
+&lt;p&gt;For this project I decided to use CSS only. I didn’t want to complicate things by having to add anything to the existing HTML, either by hardcoding (impossible for me to do anyway) or with Javascript. That way it would a simple case of linking to (or as will be shown later injecting) a stylesheet to get things looking better.&lt;/p&gt;
+
+&lt;p&gt;Taking into account the research above, the basic specification I arrived at was therefore:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Line width - 75 characters at 1440px window width - two of the four sites I looked at used 75 chars and it’s within the generally accepted range.&lt;/li&gt;
+  &lt;li&gt;Serif font, Georgia if available - notice all the sites specify fancy fonts first, probably supplied as web fonts. I didn’t want to do that so I went with a serif font. Georgia is a favourite of mine, and it’s pretty ubiquitous.&lt;/li&gt;
+  &lt;li&gt;21px font-size&lt;/li&gt;
+  &lt;li&gt;31.5px line height&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m giving myself the option to add other styles like font and backgroung colour, but that’s the initial ideal.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-implementation&quot;&gt;The implementation&lt;/h2&gt;
+
+&lt;p&gt;Optimising for Chrome at a viewport width of 1440px and using the specs above, implementing was actually pretty straight forward. The only real issue was Austlii’s odd mark-up.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/austlii-source-1.png&quot; alt=&quot;AustLii's lack of divs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As we can see they don’t really do divs which makes styling all that more difficult.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/austlii-source-2.png&quot; alt=&quot;AustLii's weird use of ordered lists&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;They also have a habit of using ordered lists for presenting the text of decisions which I’m pretty sure they do to provide paragraph numbering. Let’s not go into the semantic issues of this, and just take away the point that it’s quite hard to reliably target content on AustLii for styling purposes.&lt;/p&gt;
+
+&lt;p&gt;That’s why I made the decision to put all my styling on the body tag. I would have rather targeted everything below the navigation section at least, but that just wasn’t going to happen.&lt;/p&gt;
+
+&lt;p&gt;So, starting with font Chrome’s default for paragraphs (and ordered lists) is 16px. We’re going to use ems to give a relative size, to do this we can use the target / context = size formula.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;21 (target) / 16 (context) = 1.3125&lt;/code&gt;, so our font size will be 1.3125em&lt;/p&gt;
+
+&lt;p&gt;We can use the same formula for line height too. Our desired line height is 31.5px, and the context (font size) is 21px&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;31.5 / 21 = 1.5&lt;/code&gt;, so our line height will be 1.5&lt;/p&gt;
+
+&lt;p&gt;Font family is straight forward giving final font css looking like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Georgia&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.3125em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Lastly, we need to sort out the line length which we can achieve by limiting the width of the body element of course.&lt;/p&gt;
+
+&lt;p&gt;It’s a little more complicated than the font properties, but the target / context = size formula can help us again here too.&lt;/p&gt;
+
+&lt;p&gt;First, we need to know the average number of characters that will fit on a line of a &lt;a href=&quot;http://www.austlii.edu.au/au/cases/cth/HCA/2014/52.html&quot;&gt;typical AustLii judgment&lt;/a&gt; currently. To do this I set my Chrome window to 1440px wide and used dev tools (alt + cmd + i on Mac) to set the font properties of a paragraph to our new size and family. I chose a paragraph that was actually a list item in an ordered list as these are most common, and factors in the space lost to numbering.&lt;/p&gt;
+
+&lt;p&gt;Counting the number of characters on each line in that paragraph and dividing that by the number of lines gave an average line length of 134 characters - that’s our context in characters. From that we can calculate our body width size:&lt;/p&gt;
+
+&lt;p&gt;75 (target chars) / 134 (context) = 0.55970149253731. If we make the body 55.970149253731% of the viewport we should get 75 characters average line length.&lt;/p&gt;
+
+&lt;p&gt;AustLii sets a margin of 20px on the body element inline, and to avoid messing with that we can pad the body the rest of the way to get to our desired width. The calculations go like this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Existing left and right margins total 40px - that’s 0.02777777777778% of 1440px&lt;/li&gt;
+  &lt;li&gt;100% (viewport width) - 0.02777777777778% (for existing margins) - 55.970149253731% (for our body width) = 44.00207296849122%&lt;/li&gt;
+  &lt;li&gt;44.00207296849122% is therefore the amount of padding we need to apply to the body to get our optimal line length at 1440px&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Just remember that because we’re using % for our padding the lengths will vary depending on viewport size, but that’s what we want for a more &lt;a href=&quot;http://en.wikipedia.org/wiki/Responsive_web_design&quot;&gt;responsive&lt;/a&gt; design.&lt;/p&gt;
+
+&lt;p&gt;We could divide that 44.00207296849122% anyway we liked to apply left and right padding of course, but for simplicity I split it equally. That gives final css for the body element looking like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Georgia&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.3125em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;22.00103648424561%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;the-result&quot;&gt;The result&lt;/h2&gt;
+
+&lt;p&gt;I would love if it AustLii considered doing something simple like this to improve the site’s readibility. That would be amazing! but I’m realistic about the chances. That’s why I looked around for alternative options and discovered that it’s actually pretty easy to inject css into a page using a browser extension. The one I use is &lt;a href=&quot;https://chrome.google.com/webstore/detail/css-inject/fmiohbdblcemacakpnoinjmcelddpjbg?hl=en&quot;&gt;CSS Inject&lt;/a&gt; for Chrome, but I’m sure there are multiple other for Chrome, Firefox, and maybe even IE? I’ve also uploaded my &lt;a href=&quot;http://pittstreetpress.com/Resources/readifying-austlii.css&quot;&gt;final css&lt;/a&gt; so anyone can use it in conjunction with CSS Inject to transform any AustLii decision, or use it as the basis for their own css customising for AustLii.&lt;/p&gt;
+
+&lt;p&gt;The final product looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/austlii-readified.png&quot; alt=&quot;the final product&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The final css is essentially what is discussed above, but I added a couple of rules to fix a line height issue with list items, and to make references look a bit nicer. Here it is:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Georgia&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.3125em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;22.00103648424561%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;li&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;padding-top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;fn&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;.75em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;font-weight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;vertical-align&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;I think this styling is a vast improvement on the default, and I do find decisions a lot easier to read using it. The desired line length has been acheived, and the font properties are vastly better. If anything, I am considering dropping the font size a little, as it does seem slightly larger than necessary. I will use it for a while and see how it goes. If anyone has any ideas for improvements I’d love to hear them too.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Feb 2015 00:00:00 +1000</pubDate>
+      </item>
+    
+      <item>
+        <title>Programming for Everybody (Python) notes</title>
+        <link>http://localhost:4000/2015/01/14/programming-for-everyone-notes.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/01/14/programming-for-everyone-notes.html</guid>
+        <description>&lt;p&gt;I recently did most of &lt;a href=&quot;https://www.coursera.org/course/pythonlearn&quot;&gt;Dr Chuck’s Python course&lt;/a&gt; on Coursera, and documented most of what I’d learnt. Here are my notes, and few comments on the experience.&lt;/p&gt;
+
+&lt;p&gt;I’d recommend it for an introduction. It’s focused on text processing, but includes all the conceptual elements I expected. Coupled with Swaroop’s course: &lt;a href=&quot;http://www.swaroopch.com/notes/python/&quot;&gt;A bite of Python&lt;/a&gt; and &lt;a href=&quot;http://learnpythonthehardway.org/&quot;&gt;Learn Python the Hard Way&lt;/a&gt;, it represents pretty much the entirity of my Python courses to date.&lt;/p&gt;
+
+&lt;h2 id=&quot;week-1-introduction---why-we-program&quot;&gt;Week 1: introduction - why we program&lt;/h2&gt;
+
+&lt;p&gt;I can’t say I really learnt anything in the first week, but it was definitely fun. Dr Chuck is a charismatic and enthusiastic teacher and his lectures, that are kind of like fireside chats, certainly got me interested in the course.&lt;/p&gt;
+
+&lt;h2 id=&quot;week-2-variables-and-expressions&quot;&gt;Week 2: variables and expressions&lt;/h2&gt;
+
+&lt;p&gt;Still pretty basic, but I definitely learned some stuff this week.&lt;/p&gt;
+
+&lt;h3 id=&quot;expression-evaluation-order&quot;&gt;Expression evaluation order&lt;/h3&gt;
+
+&lt;p&gt;When Python evaluates expressions the following hierarchy of operators is used: Parentheses; Powers; Division, multiplication, remainder; Addition, subtraction; Left to right.&lt;/p&gt;
+
+&lt;p&gt;An example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;# The expresion to be evaluated&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# No parentheses, so first would be powers - 6**2 = 36&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;36&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Next is Division, multiplication, and remainder&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# We have multiplication and division so left to right&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# kicks in - 2 * 36 = 72&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;72&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Now division - 72/10 = 7 #working in integers of course&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Lastly simple addition, and the final result&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;floats-in-expressions&quot;&gt;Floats in expressions&lt;/h3&gt;
+
+&lt;p&gt;When evaluating an expression that contains a float the evaluation is done with integers until the float is evaluated, then after that the rest of the expression is evaluated as if all numbers were floats&lt;/p&gt;
+
+&lt;h3 id=&quot;an-improvement-on-the-elevator-program&quot;&gt;An improvement on the elevator program&lt;/h3&gt;
+
+&lt;p&gt;My version of Dr Chuck’s Euro &amp;gt; US elevator floor converter. Mine accepts 0 and negative floors&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;eurofloor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;raw_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter European floor number: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eurofloor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;US floor equivalent is: Basement&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;US floor equivalent is:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;floor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;week-3-conditional-code&quot;&gt;Week 3: conditional code&lt;/h2&gt;
+
+&lt;h3 id=&quot;indenting-and-blocks&quot;&gt;Indenting and blocks&lt;/h3&gt;
+
+&lt;p&gt;Don’t mix tabs and spaces when you indent your code, infact, don’t use tabs at all, indent your code blocks by 4 spaces. To set this is Sublime Text, go to Preferences &amp;gt; Settings - User, and add:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;tab_size&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;translate_tabs_to_spaces&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;the-if-statement&quot;&gt;The if statement&lt;/h3&gt;
+
+&lt;p&gt;You can do single line if statements like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You don’t need to have an else in a conditional, you can just have if and elif(s):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Large&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Small&quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;All done&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;I was curious about why Dr Chuck didn’t use parentheses when writing out if conditionals, turns out for conditional statements they do the same thing as for evaluating any simple expression, i.e. to force hierachy of evaluation! So, they are really not necessary for simple conditions like x &amp;lt; 5.&lt;/p&gt;
+
+&lt;p&gt;I think I will still use them though, for consistency if nothing else.&lt;/p&gt;
+
+&lt;h3 id=&quot;tryexcept&quot;&gt;try/except&lt;/h3&gt;
+
+&lt;p&gt;Try/except is used to deal with errors, by default it will only deal with run time errors, e.g. non-existent variables. An if statement will never raise an exception on it’s own. You have to use ‘raise’ to get that to happen.&lt;/p&gt;
+
+&lt;p&gt;It may be possible to use ‘assert’, but that has its own issues apparently.&lt;/p&gt;
+
+&lt;h2 id=&quot;week-4-functions&quot;&gt;Week 4: functions&lt;/h2&gt;
+
+&lt;p&gt;I’m sad to say I didn’t really learn anything new about functions from Dr Chuck. To be fair, he did say functions wouldn’t really feature in the course. I would suggest looking elsewhere for function related tutorials.&lt;/p&gt;
+
+&lt;p&gt;Format for a function:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;function_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argument1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argument2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# indent code inside function by 4 spaces&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argument1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argument&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;week-5-loops-and-iteration&quot;&gt;Week 5: loops and iteration&lt;/h2&gt;
+
+&lt;p&gt;A loop that never runs is known as a zero trip loop, for example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# loop will never run because x is set to zero, and condition is x &amp;gt; 0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Use continue in a loop to return to the start of the loop, for example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;raw_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;skip&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;returning to top of loop&quot;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#data will not get printed, focus is returned to data = raw_input()&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;While type loops are known as indefinite loops, they will contune to run until some condition becomes false, the opposite are definite loops, i.e. iteration&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;# for loop (iteration) example&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#prints numbers 1 to 5&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Loop idioms was a phrase I’d not come across before, Dr Chuck gave examples including counting, adding and averaging loops. More on idioms on wikipedia.&lt;/p&gt;
+
+&lt;h2 id=&quot;week-6-strings&quot;&gt;Week 6: Strings&lt;/h2&gt;
+
+&lt;p&gt;Best thing I learnt this week is the dir function. Use it to discover built in methods for an object, e.g. a variable that points to a string object:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#super useful!&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'capitalize'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'center'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'count'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'decode'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'encode'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Access a character from a string using indexing:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#prints e (2nd character, as indexing is form character 0)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Get length of string:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#prints 12 (number of characters in string)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Looping through strings:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#Indefinite loop&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;letter&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;letter&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#definite loop&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;letter&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;letter&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Slicing strings:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#prints first 5 characters (upto but not including index position 5)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#prints from 6th character to end of string&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:]&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#prints all characters&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;‘in’ as an operator:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;'H'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#True&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;'h'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;A simple string parsing exercise:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#find the host an in email given from_line&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;from_line&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;From John Smith (john@email.com.au)  Date 1 December 2013 Subject: Hi!&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# index position of first @ symbol in from string&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;at_position&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'@'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# index position of first ) after @ symbol in from string&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;closing_paren&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;')'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+
+&lt;span class=&quot;c&quot;&gt;# prints characters in from string between index positions for @ and ),&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# i.e. the email host&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;close_par&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;week-7-you-have-arrived&quot;&gt;Week 7: You Have Arrived&lt;/h2&gt;
+
+&lt;p&gt;Didn’t make any notes this week.&lt;/p&gt;
+
+&lt;h2 id=&quot;week-8-lists&quot;&gt;Week 8: Lists&lt;/h2&gt;
+
+&lt;p&gt;Lists are mutable! Use the range function to create a list of integers:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Not sure when you would need it really, but if you want to use the index of an item in a list when looping through it you can combine range() and len() to do that:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;although&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;above&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;example&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;would&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;also&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Lists can be concatinated (+) and sliced ([n:n]) just like strings. Interesting that concatination builds a new list from the existing lists, I thought it might have created a new list of nested lists, but no!&lt;/p&gt;
+
+&lt;p&gt;An aside, two logiccal operators to remember: in and not in:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Interesting discussion on alternatives to loop idioms discussed in week 5:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#averaging loop - week 5 version&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;raw_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter a number: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'done'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#note single line version of if statement&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Average: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;d&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#the same thing can be done by adding inputs to a list then performing&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#the calculation on the list using built-in functions(methods)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;raw_input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Enter a number: &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'done'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Average: &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;d&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The idea of adding values to a list via a loop and then later doing other things with that list, i.e. with those values, is a powerful one!&lt;/p&gt;
+
+&lt;p&gt;The split() method splits a string into a list:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;The quick    brown fox&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;listy&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#default split character is space (any number of spaces count as one)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;listy&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'The'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'quick'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'brown'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'fox'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;ow&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;provide&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;an&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argument&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;split&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;another&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;character&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello-World&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;listy&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'-'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;listy&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Hello'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'World'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Split() method can be really useful for extracting specific elements form large strings, e.g text files. Use the “double split” method, split on white space, then refine by taking important items form the list and spliting those with other chracters.&lt;/p&gt;
+
+&lt;h3 id=&quot;guardian-patterns&quot;&gt;Guardian patterns&lt;/h3&gt;
+
+&lt;p&gt;A technique form preventing errors in your programs, for example, if it appears specific data being reed might be causing problems. Basically debug to figure out what data is causing the issue and then write a statement to deal with that data before the bit of your program that crashes is reached.&lt;/p&gt;
+
+&lt;p&gt;Typically this would be an “if x: continue” statement.&lt;/p&gt;
+
+&lt;h2 id=&quot;week-9-dictionaries&quot;&gt;Week 9: Dictionaries&lt;/h2&gt;
+
+&lt;p&gt;Didn’t make any notes this week.&lt;/p&gt;
+
+&lt;h2 id=&quot;week-10-tuples&quot;&gt;Week 10: Tuples&lt;/h2&gt;
+
+&lt;p&gt;Basically immutable lists. They are iterable like lists, but you can’t change them once created so you can’t sort, append etc. So why use them? Because they are more efficient than lists. Useful for assigning multiple variables in one statement:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#We don't really need the parentheses on the left hand side, so:&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Useful for iterating over keys and values in dictionaries:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;myDict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myDict&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'key is &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s and value is &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;d'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Tuples are comparable:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Comparisons start from left, if first values are equal comparison moves to next values in each tuple&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Because they are comparable they are sortable, so are useful for sorting dictionaries by key:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myDict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myDict&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#first convert dictionary to list of tuples&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# then use sort() to sort by keys&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can combine all the above and use the &lt;code class=&quot;highlighter-rouge&quot;&gt;sorted()&lt;/code&gt; method to output sorted keys and values:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myDict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'b'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'c'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;myDict&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()):&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'key is &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;s and value is &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;d'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Dr Chuck talked a little bit about refactoring, suggesting once you understand the long form of writing many of these idioms, you can often refactor them into ‘more dense’ versions. An example of this being if oyu wanted to get the top 5 most common words in some text data:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;# First read the data and record the word frequency&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#dictionary to store word counts&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;source&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;word&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;words&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;word&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#Then do the sorting of the word count dictionary to get the top 5 words&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; 
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#add value and key tuples form counts to lst&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sort&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#the sorting can be refactored as:&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;counts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()],&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reverse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;k&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lst&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;k&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Wed, 14 Jan 2015 00:00:00 +1000</pubDate>
+      </item>
+    
+      <item>
+        <title>Sample post</title>
+        <link>http://localhost:4000/2014/11/30/sample-post.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/11/30/sample-post.html</guid>
+        <description>&lt;p&gt;Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+  &lt;li&gt;Donec a diam lectus&lt;/li&gt;
+  &lt;li&gt;Sed sit amet ipsum mauris&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.&lt;/p&gt;
+
+&lt;p&gt;Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula &lt;em&gt;semper consectetur sagittis&lt;/em&gt;, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.&lt;/p&gt;
+
+&lt;p&gt;Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Nov 2014 00:00:00 +1000</pubDate>
+      </item>
+    
+      <item>
+        <title>Feature images</title>
+        <link>http://localhost:4000/2014/11/29/feature-images.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/11/29/feature-images.html</guid>
+        <description>&lt;p&gt;This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 29 Nov 2014 00:00:00 +1000</pubDate>
+      </item>
+    
+      <item>
+        <title>Markdown and HTML</title>
+        <link>http://localhost:4000/2014/11/28/markdown-and-html.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/11/28/markdown-and-html.html</guid>
+        <description>&lt;p&gt;Jekyll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.&lt;/p&gt;
+
+&lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Here’s an example of an image, which is included using Markdown:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/sample_feature_img_2.png&quot; alt=&quot;Geometric pattern with fading gradient&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to ten&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// count to twenty&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as &lt;script type=&quot;math/tex&quot;&gt;S_n = a \times \frac{1-r^n}{1-r}&lt;/script&gt; can be displayed inline.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int \frac{2x^2+4x+6}{x-2}&lt;/script&gt;
+</description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 +1000</pubDate>
+      </item>
+    
+      <item>
+        <title>MOOCs, python, first step into a larger world</title>
+        <link>http://localhost:4000/2014/09/25/moocs-python-first-steps.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/09/25/moocs-python-first-steps.html</guid>
+        <description>&lt;p&gt;I’ve had a change of direction since I resurrected my blogging efforts. I have found 24 things to be pretty uninspiring I’m afraid. I’m sure many people get a lot out of it, but it’s not for me.&lt;/p&gt;
+
+&lt;p&gt;I have been keeping busy with my professional development though, and have been working my way through various resources trying to teach myself the program in Python.&lt;/p&gt;
+
+&lt;p&gt;I have previously started learning Ruby, and I’ve completed a couple of courses in Javascript and HTML/CSS through CodeAcademy.&lt;/p&gt;
+
+&lt;p&gt;Ruby I could never really get excited about, but Python I am really enjoying. It seems to me like it’s more mature as a language and so there are a lot more resources around to help the learner, be they structured courses or just examples and explanations on StackExchange.&lt;/p&gt;
+
+&lt;p&gt;So, here’s what I’ve been using to help me learn:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/ud036&quot;&gt;Programming foundations with Python&lt;/a&gt; – free course through Udacity, not very long, but a good introduction to certain aspects of programming, particularly the concept of Objects&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs253&quot;&gt;Web development&lt;/a&gt; – another free Udacity course, much longer (I haven’t completed it yet), and steps through the process of creating a web application using Python and Google App Engine. The lecturer used to work at Reddit I think. The course assumes Python experience so it’s a step up from the first course. Very good so far.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.swaroopch.com/notes/python/&quot;&gt;A Byte of Python&lt;/a&gt; – a book written by an Indian programmer and blogger named Swaroop CH.  Excellent starter book for learning Python&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://learnpythonthehardway.org/&quot;&gt;Learn Python the Hard Way&lt;/a&gt; – another book on learning Python. Focuses on doing lots of  fairly repetitive ‘drills’ involving lots of typing. A bit annoying for a crap typist like me, but it does help the remembering process. Quite a Victorian approach to learning I reckon.
+For the first time recently, I feel like I’m starting to really understanding programming, at least at a basic level. Not sure where I’ll go from here, but for now I’m just going to keep doing tutorials and MOOCs. It’s fun, so why not.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 25 Sep 2014 00:00:00 +1000</pubDate>
+      </item>
+    
+      <item>
+        <title>Udemy</title>
+        <link>http://localhost:4000/2014/07/08/udemy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/07/08/udemy.html</guid>
+        <description>&lt;p&gt;So 24 things is going a bit slowly. Most of the things have been somewhat uninspiring if I’m honest. I guess because my specific situation means I’m not exactly an academic librarian, just a casual, I don’t see the tasks relating to each thing as particularly relevant to my primary role, as librarian in a government agency.&lt;/p&gt;
+
+&lt;p&gt;Anyway, a new ‘thing’ I’ve discovered through work is &lt;a href=&quot;https://www.udemy.com/&quot;&gt;Udemy&lt;/a&gt;. I’ve started working through a &lt;a href=&quot;https://www.udemy.com/web-programming-with-python/&quot;&gt;Python course&lt;/a&gt; we purchased at work as part of a &lt;a href=&quot;https://stacksocial.com/&quot;&gt;stacksocial&lt;/a&gt; bundle. It’s really good so far. I’ve done a few online programming courses through &lt;a href=&quot;http://www.codecademy.com/&quot;&gt;CodeAcademy&lt;/a&gt; and &lt;a href=&quot;http://www.w3schools.com/&quot;&gt;W3Schools&lt;/a&gt; that have been good, but it always feels a little theorhetical. This course is different in that it goes from basic Python programming right through to building a database driven website using Django, and even some SQL along the way.&lt;/p&gt;
+
+&lt;p&gt;As an aside I’ve always ignored SQL but turns out I think it’s something I, and librarians in general, would be really into – it’s basically advanced boolean searching from what I can tell. The W3Schools SQL course is a good place to get an overview.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 08 Jul 2014 00:00:00 +1000</pubDate>
+      </item>
+    
+      <item>
+        <title>Codeacademy</title>
+        <link>http://localhost:4000/2014/05/13/codeacademy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/05/13/codeacademy.html</guid>
+        <description>&lt;p&gt;I’ve been trying to improve my coding skills sporadically over that last year or so. Mostly I’ve used &lt;a href=&quot;http://http//www.codecademy.com/&quot;&gt;Codeacamedy&lt;/a&gt; to do this.&lt;/p&gt;
+
+&lt;p&gt;It’s basically a MOOC, and I’ve found that on the whole it’s a pretty good way to boost coding skills. There are ‘tracks’ that you can follow in various languages, plus a load of one off lessons you can take. So far I’ve done the HTML/CSS,  Javascript and most of the Ruby tracks. Next up will probably be JQuery.&lt;/p&gt;
+
+&lt;p&gt;The lessons are built around an interactive coding environment where you are set tasks to write, or complete, bits of code and then run them. If you get the right result you progress to the next lesson.&lt;/p&gt;
+
+&lt;p&gt;It’s not perfect though, I’ve found several examples of lessons where code is technically correct but doesn’t pass because the Codeacademy validator is expecting a different solution. It is also fair to say that some of the lesson instructions are a bit confusing.&lt;/p&gt;
+
+&lt;p&gt;Thankfully each lesson is supported by a Q&amp;amp;A forum which is pretty active. You can usually find an answer there if you’re stuck, or ask a new question if you need more help.&lt;/p&gt;
+
+&lt;p&gt;The other thing I’m finding having completed a couple of tracks is that it’s a bit hard to translate the theoretical learnings into practical applications – particularly with Javascript. I suppose it’s a case of thinking of a project you want to try and then trying to apply your learning to it. That be something I try before too long, and before I forget everything I’ve learnt.&lt;/p&gt;
+
+&lt;p&gt;All told I highly recommend Codeacademy for upping you coding skills, and it’s all free!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 May 2014 00:00:00 +1000</pubDate>
+      </item>
+    
+      <item>
+        <title>24 things for 2014</title>
+        <link>http://localhost:4000/2014/05/10/24-things-for-2014.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/05/10/24-things-for-2014.html</guid>
+        <description>&lt;p&gt;I have finally started doing 24 things this year, I thought is used to be 23 things but we must have added one.&lt;/p&gt;
+
+&lt;p&gt;I’m doing it through QUT were I work an evening shift as a casual reference librarian. We’re using Yammer as the platform, but a recent thing was about blogging and writing for the web.&lt;/p&gt;
+
+&lt;p&gt;This prompted me to resurrect my domain, set up a blog, and start recording some of the recent PD activity I’ve been doing. This is probably my 10th blog (at least), which is embarrassing. If I write that down then hopefully it will mean I stick at this one. It’s not going to be updated every day that’s for sure, but hopefully somewhat regularly, when I have something interesting to report.&lt;/p&gt;
+
+&lt;p&gt;We shall see…&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 May 2014 00:00:00 +1000</pubDate>
+      </item>
+    
+  </channel>
+</rss>
